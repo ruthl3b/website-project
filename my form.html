@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM</title>
+</head>
+<style >
+	body{
+			margin: 0;
+			padding: 0;
+			background:beige;
+		}
+		.navbar{
+			background: skyblue;
+			display: flex;
+			justify-content: space-between;
+		}
+		.navbar ul li{
+			list-style-type: none;
+			margin: 10px 30px;
+		}
+		.navbar ul{
+			display: flex;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: white;
+			font-size: 13px;
+			
+
+		}
+		.navbar ul li::after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+
+}
+		.navbar ul li:hover:after{
+			width: 100%;
+			background: pink;
+		}
+		.formImage{
+			border: 1px solid skyblue;
+			border-radius: 50%;
+			margin-left: 40%;
+			margin-top: 1em;
+		}
+		.form form{
+			background: darkcyan;
+			width: 20em;
+			margin-left: 35%;
+			border: 1px solid grey;
+			margin-top: 1.5em;
+			border: 9px
+		
+		}
+		.mainForm{
+			padding: 20px;
+		}
+		.mainForm label{
+			color: white;
+		}
+		.mainForm .writed{
+			width: 100%;
+		}
+		.remember{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+		.remember button{
+			background: rgb(73, 139, 340);
+			border: none;
+			color: white;
+			font-weight: bolder;
+			border-radius: 4px;
+			height: 2.5em;
+			width: 4em;
+		}
+		.links{
+			text-decoration: none;
+			margin-left: 38%;
+			color: grey;
+		}
+		.foot{
+			display: flex;
+			margin-left: 38%;
+			margin-top: 1em;
+		}
+		.foot select{
+			border-radius: 5px;
+			border: 1px solid grey;
+			width: 10em;
+			height: 2em;
+		}
+		.foot button{
+			margin-left: 5px;
+			border: 1px solid rgb(73, 139, 340);
+			border-radius: 5px;
+			color: rgb(73, 139, 340);
+			height: 2em;
+		}.foot button a{
+			
+			border: 1px solid rgb(73, 139, 340);
+			background-color: skyblue;
+			color: rgb(73, 139, 340);
+			height: 2em;
+			text-decoration: none;
+			margin-left: ;
+		}
+	</style>
+	<body>
+			<a href="about us.html">
+	<div class="navbar">
+		<div class="image">
+			<img src="LOGO.jpg" width="80px" height="80px">
+		</div>
+		<ul>
+			<li><a href="my project.html">HOME</a></li>
+			<li><a href="Home.html">ABOUT US</a></li>
+			
+			<li><a href="my form.html">LOGIN</a></li>
+			<li><a href="img.html">GALLERY</a></li>
+			<li><a href="CONTACT.html">CONTACT</a></li>
+			
+
+
+		</ul>
+	</div>
+	<div class="form">
+		<img src="log.jpg" class="formImage">
+		<form>
+			<div class="mainForm">
+				<label>Username or Email Address</label>
+				<input class="writed" type="text" name="username"><br>
+				<label>Password</label><br>
+				<input class="writed" type="password" name="password">
+
+				<div class="remember">
+					<div>
+						<input type="checkbox" id="check" name="check">
+						<label for="check">Remember Me</label>
+					</div>
+				<div>
+					<button onclick="alert('your regist accepted')">Log In</button>
+				</div>
+			</div>
+			</div>
+		</form>
+		<a href="https://www.google.com/gmail"class="links">register | lost your password?</a> <br><br>
+		<a href="https://www.google.com/gmail" class="links">go to kigali independent university</a>
+		<div class="foot">
+			<select>
+				<option>English(UK)</option>
+				<option>English(United State)</option>
+				<option>English(UK)</option>
+			</select>
+			<div>
+				<button>Change</button><br>
+				<p><a href="CONTACT.html"> go Back</a></button></p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
